@@ -41,10 +41,11 @@ Desvantagem: Detecção,Firewalls modernos e sistemas IDS detectam facilmente o 
 
 6. **Forma de identificar scan de portar no Wireshark**:
 7. Filtro de exibição para pacotes principais: tcp.flags.syn == 1 && tcp.flags.ack == 0
+8. ![image alt](https://github.com/Dudasantluiz/Port-scan-no-Wireshark/blob/main/Tela4.png?raw=true)
 
-8. Ir na aba Estatisticas > conversations > tcp : Verificando se teria um IP (address A) com a mesma porta e outro IP (address B) com  varias portas alvo diferentes em curto espaço de tempo. 
-9.
+9. Ir na aba Estatisticas > conversations > tcp : Verificando se teria um IP (address A) com a mesma porta e outro IP (address B) com  varias portas alvo diferentes em curto espaço de tempo. 
 10.
-11. 
-12.
-13. 📁 Arquivos no Repositórioanalysis_capture.pcapng: Ficheiro de captura para análise detalhada no Wireshark.screenshots/: Imagens do laboratório.Dicas para finalizar no GitHub:Cria o ficheiro: Clica em "Add file" -> "Create new file" e dá o nome de README.md.Sobe o PCAP: Não te esqueças de subir o arquivo do Wireshark (Export Specified Packets). Isso dá muita credibilidade.Personaliza os IPs: No texto, usa os IPs reais que apareceram nos teus prints para haver coerência.
+11.
+12. 
+13.
+14. 📁 Arquivos no Repositórioanalysis_capture.pcapng: Ficheiro de captura para análise detalhada no Wireshark.screenshots/: Imagens do laboratório.Dicas para finalizar no GitHub:Cria o ficheiro: Clica em "Add file" -> "Create new file" e dá o nome de README.md.Sobe o PCAP: Não te esqueças de subir o arquivo do Wireshark (Export Specified Packets). Isso dá muita credibilidade.Personaliza os IPs: No texto, usa os IPs reais que apareceram nos teus prints para haver coerência.
